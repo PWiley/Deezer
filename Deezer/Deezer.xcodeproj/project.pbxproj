@@ -20,6 +20,7 @@
 		2F228F142758BDD6003958A1 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F228F132758BDD6003958A1 /* AlbumViewController.swift */; };
 		2F228F162758BDDD003958A1 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F228F152758BDDD003958A1 /* AlbumViewModel.swift */; };
 		2F228F182758BDE5003958A1 /* AlbumRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F228F172758BDE5003958A1 /* AlbumRepository.swift */; };
+		2F228F1B2758C191003958A1 /* ArtistsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F228F1A2758C191003958A1 /* ArtistsResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2F228F132758BDD6003958A1 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		2F228F152758BDDD003958A1 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
 		2F228F172758BDE5003958A1 /* AlbumRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRepository.swift; sourceTree = "<group>"; };
+		2F228F1A2758C191003958A1 /* ArtistsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		2F228F0B2758BD5D003958A1 /* Artists */ = {
 			isa = PBXGroup;
 			children = (
+				2F228F192758C187003958A1 /* Domain */,
 				2F228F0D2758BDBD003958A1 /* ArtistsViewController.swift */,
 				2F228F0F2758BDC5003958A1 /* ArtistsViewModel.swift */,
 				2F228F112758BDCD003958A1 /* ArtistsRepository.swift */,
@@ -167,6 +170,14 @@
 				2F228F172758BDE5003958A1 /* AlbumRepository.swift */,
 			);
 			path = Album;
+			sourceTree = "<group>";
+		};
+		2F228F192758C187003958A1 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2F228F1A2758C191003958A1 /* ArtistsResponse.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F228F162758BDDD003958A1 /* AlbumViewModel.swift in Sources */,
+				2F228F1B2758C191003958A1 /* ArtistsResponse.swift in Sources */,
 				2F228F122758BDCD003958A1 /* ArtistsRepository.swift in Sources */,
 				2F228F142758BDD6003958A1 /* AlbumViewController.swift in Sources */,
 				2F228F182758BDE5003958A1 /* AlbumRepository.swift in Sources */,
