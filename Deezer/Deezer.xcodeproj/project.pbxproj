@@ -12,6 +12,8 @@
 		2F228EDA2758B880003958A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F228ED82758B880003958A1 /* LaunchScreen.storyboard */; };
 		2F228EE52758B880003958A1 /* DeezerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F228EE42758B880003958A1 /* DeezerTests.swift */; };
 		2F228F002758B9A1003958A1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2F228EFF2758B9A1003958A1 /* README.md */; };
+		2F228F032758BBAF003958A1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2F228F022758BBAF003958A1 /* SnapKit */; };
+		2F228F062758BC23003958A1 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2F228F052758BC23003958A1 /* AlamofireImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F228F032758BBAF003958A1 /* SnapKit in Frameworks */,
+				2F228F062758BC23003958A1 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +127,10 @@
 			dependencies = (
 			);
 			name = Deezer;
+			packageProductDependencies = (
+				2F228F022758BBAF003958A1 /* SnapKit */,
+				2F228F052758BC23003958A1 /* AlamofireImage */,
+			);
 			productName = Deezer;
 			productReference = 2F228ECA2758B87D003958A1 /* Deezer.app */;
 			productType = "com.apple.product-type.application";
@@ -173,6 +181,10 @@
 				Base,
 			);
 			mainGroup = 2F228EC12758B87D003958A1;
+			packageReferences = (
+				2F228F012758BBAF003958A1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				2F228F042758BC23003958A1 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 2F228ECB2758B87D003958A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -491,6 +503,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F228F012758BBAF003958A1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.1;
+			};
+		};
+		2F228F042758BC23003958A1 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F228F022758BBAF003958A1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F228F012758BBAF003958A1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		2F228F052758BC23003958A1 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F228F042758BC23003958A1 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2F228EC22758B87D003958A1 /* Project object */;
 }
