@@ -11,6 +11,7 @@
 		2F228ED72758B880003958A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F228ED62758B880003958A1 /* Assets.xcassets */; };
 		2F228EDA2758B880003958A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F228ED82758B880003958A1 /* LaunchScreen.storyboard */; };
 		2F228EE52758B880003958A1 /* DeezerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F228EE42758B880003958A1 /* DeezerTests.swift */; };
+		2F228F002758B9A1003958A1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2F228EFF2758B9A1003958A1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		2F228EDB2758B880003958A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F228EE02758B880003958A1 /* DeezerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeezerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F228EE42758B880003958A1 /* DeezerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerTests.swift; sourceTree = "<group>"; };
+		2F228EFF2758B9A1003958A1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		2F228EC12758B87D003958A1 = {
 			isa = PBXGroup;
 			children = (
+				2F228EFF2758B9A1003958A1 /* README.md */,
 				2F228ECC2758B87D003958A1 /* Deezer */,
 				2F228EE32758B880003958A1 /* DeezerTests */,
 				2F228ECB2758B87D003958A1 /* Products */,
@@ -185,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F228F002758B9A1003958A1 /* README.md in Resources */,
 				2F228EDA2758B880003958A1 /* LaunchScreen.storyboard in Resources */,
 				2F228ED72758B880003958A1 /* Assets.xcassets in Resources */,
 			);
